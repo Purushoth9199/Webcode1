@@ -1,0 +1,51 @@
+.layout{
+    margin:0 100px;    
+}
+
+.header{
+    background-color: rgb(51, 182, 37);
+    padding: 20px ;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.logo{
+    font-size: 30px ;
+    color:rgba(255, 255, 255, 0.911);
+    margin: 0 !important;
+    cursor: pointer;
+}
+.username{
+    font-size:18px ;
+    color:rgba(255, 255, 255, 0.894)
+}
+.content{
+height: 85vh;
+box-shadow: 0 0 2px grey ;
+margin-top: 20px ;
+border-top-right-radius: 15px;
+border-top-left-radius:25px ;
+padding: 15px;
+overflow-y:scroll ;
+}
+
+.Spinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% , -50%) ;
+    size: large 
+}
+
+.ant-spin-dot-item{
+    background-color:darkblue !important;
+}
+
+@media screen and (max-width:700px){
+    .layout{
+        margin: 0 15px;
+    }
+}
+.primary{
+    font-size: larger;
+    
+}

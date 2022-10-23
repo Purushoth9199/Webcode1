@@ -1,0 +1,41 @@
+.register{
+  height:100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+}
+.login{
+    height:100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+}
+
+.lottie{
+    height:550px
+}
+
+
+input:focus{
+    outline : none !important;
+    box-shadow : none !important ;
+}
+label {
+    color: rgba(0, 0, 0, 0.994)!important;
+}
+a {
+    color:black;
+}
+.register h1{
+    font-size: 35px;
+   padding-bottom: 25px;
+   font-weight: bold !important;
+
+}
+.login h1{
+    font-size: 60px;
+    padding-bottom: 25px;
+    font-weight: bold !important;
+}
